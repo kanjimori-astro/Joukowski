@@ -16,7 +16,13 @@ Joukowski airfoils are a class of airfoils that can be obtained from the Joukows
 
 $z=\zeta+\frac{a^2}{\zeta},$
 
-where $a$ is a real parameter. Streamlines around the airfoil are also obtained by transforming the streamlines on the $\zeta$-plain. In order to satisfy Kutta's condition, which states that a stagnation point be located at the trailing edge, the circulation should be $\Gamma=-4\pi rU_0\sin(\alpha+\beta)$, where $\sin\beta=\eta_0/r$. It follows from the Kutta-Joukowski theorem that the lift is given by $L=-\rho U_0L$. 
+where $a$ is a real parameter. Streamlines around the airfoil are also obtained by transforming the streamlines on the $\zeta$-plain. In order to satisfy Kutta's condition, which demands that a stagnation point be located at the trailing edge, the circulation should be $\Gamma=-4\pi rU_0\sin(\alpha+\beta)$, where $\sin\beta=\eta_0/r$. It follows from the Kutta-Joukowski theorem that the lift is given by $L=-\rho U_0L$. 
+
+# What the code can do
+
+We first normalize the equations above. If we define $\psi'=\psi/U_0a$, $r'=r/a$, $\Gamma'=\Gamma/U_0a$, and so on, the normalized stream function is written as
+
+$\psi'(\zeta)=\left(1-\frac{r'^2}{\xi'^2+\eta'^2}(\eta'\cos\alpha-\xi'\sin\alpha)\right)-\frac{\Gamma'}{2\pi}\log(\sqrt{\xi'^2+\eta'^2})$
 
 # Reference:
 [1] 太田有・藤澤信道 (2020), 『流体の力学』, 共立出版.
