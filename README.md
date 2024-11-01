@@ -20,7 +20,9 @@ where $a$ is a real parameter. Streamlines around the airfoil are also obtained 
 
 # What the code can do
 
-The code can calculate a Joukowski airfoil and streamlines that satisfy Kutta's condition. An example with $\xi_0/a=-0.1$, $\eta_0/a=0.25$, and $\alpha=15^\circ$ is shown in the figure below.
+The code can calculate a Joukowski airfoil and streamlines that satisfy Kutta's condition. An example with $\xi_0/a=-0.1$, $\eta_0/a=0.25$, and $\alpha=15^\circ$ is shown in the figure below. The airfoil is output in airfoil.dat and the streamlines are output in stream.dat.
+
+![joukowski](https://github.com/user-attachments/assets/4ba5e0b5-be19-45ff-bad7-663b0c5807f7)
 
 # Reference:
 [1] 太田有・藤澤信道 (2020), 『流体の力学』, 共立出版.
