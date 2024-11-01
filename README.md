@@ -20,9 +20,7 @@ where $a$ is a real parameter. Streamlines around the airfoil are also obtained 
 
 # What the code can do
 
-We first normalize the equations above. If we define $\psi'=\psi/U_0a$, $r'=r/a$, $\Gamma'=\Gamma/U_0a$, and so on, the normalized stream function is written as
-
-$\psi'(\zeta)=\left(1-\frac{r'^2}{\xi'^2+\eta'^2}(\eta'\cos\alpha-\xi'\sin\alpha)\right)-\frac{\Gamma'}{2\pi}\log(\sqrt{\xi'^2+\eta'^2})$
+The code can calculate a Joukowski airfoil and streamlines that satisfy Kutta's condition. An example with $\xi_0/a=-0.1$, $\eta_0/a=0.25$, and $\alpha=15^\circ$ is shown in the figure below.
 
 # Reference:
 [1] 太田有・藤澤信道 (2020), 『流体の力学』, 共立出版.
