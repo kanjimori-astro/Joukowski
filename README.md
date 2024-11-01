@@ -14,7 +14,7 @@ Streamlines can be obtained by drawing coutours of $\psi(\zeta)$.
 
 Joukowski airfoils are a class of airfoils that can be obtained from the Joukowski transformation of the circle. The Joukowski transformation from the $\zeta$- to the $z$-plain is defined as
 
-$z=\zeta+\frac{a^2}{\zeta},$
+$$z=\zeta+\frac{a^2}{\zeta},$$
 
 where $a$ is a real parameter. Streamlines around the airfoil are also obtained by transforming the streamlines on the $\zeta$-plain. In order to satisfy Kutta's condition, which demands that a stagnation point be located at the trailing edge, the circulation should be $\Gamma=-4\pi rU_0\sin(\alpha+\beta)$, where $\sin\beta=\eta_0/r$. It follows from the Kutta-Joukowski theorem that the lift is given by $L=-\rho U_0L$. 
 
