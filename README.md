@@ -2,7 +2,7 @@
 The code performs the Joukowski transformation of a circle and calculates streamlines around a Joukowski airfoil.
 
 # Introduction
-It is well known that two-dimensional potential flows of ideal fluid can be described by regular complex functions [e.g. 1]. For example, a flow round a circle on the $\zeta$-plain with the radius $r$ and the ciculation $\Gamma$ is described by a complex potential
+It is well known that two-dimensional potential flows of ideal fluid can be described by regular complex functions [e.g. 1]. For example, a flow around a circle on the $\zeta$-plain with the radius $r$ and the ciculation $\Gamma$ is described by a complex potential
 
 $$W(\zeta)=U_0\left(\zeta e^{-i\alpha}+\frac{r^2}{\zeta}e^{i\alpha}\right)-i\frac{\Gamma}{2\pi}\log\zeta,$$
 
